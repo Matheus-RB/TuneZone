@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import instrumentos from "./array"
 
+import Image from 'next/image';
+
 const store = () => {
   return (
     <div>
@@ -9,7 +11,7 @@ const store = () => {
           <li className='border col-span-1 rounded-lg shadow-md hover:-translate-y-1' key={instrumento.id}>
             <Link className='flex p-4 flex-col justify-between h-full' href={`/store/${instrumento.id}`}>
               <div className='flex flex-col justify-center'>
-                <img
+                <Image
                   className='max-h-[560px] max-w-full object-contain mb-2'
                   src={instrumento.images[0]}
                   alt={instrumento.name}

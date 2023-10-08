@@ -26,8 +26,7 @@ const About = () => {
           </p>
           <p className='mb-3'>
             We are passionate about all things music and aim to create a platform where music lovers can come together
-            to discover, explore, and connect through the power of melodies and rhythms. Whether you're a fan of rock, pop, jazz, or any other genre,
-            our site offers a diverse range of content, including artist interviews, album reviews, concert updates, and curated playlists.
+            to discover, explore, and connect through the power of melodies and rhythms. Whether you are a fan of rock, pop, jazz, or any other genre, our site offers a diverse range of content, including artist interviews, album reviews, concert updates, and curated playlists.
           </p>
           <p className='mb-3'>
             Join us on this musical journey as we celebrate the universal language that brings joy and inspiration to our lives.

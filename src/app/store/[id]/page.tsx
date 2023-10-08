@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import instrumentos from '../array';
 import { useState, useEffect } from 'react';
@@ -14,13 +14,13 @@ interface ProductProps {
   }
 }
 
-const info = ({ params }: ProductProps) => {
+const Info = ({ params }: ProductProps) => {
 
-  const [id, setId] = useState<number>(2)
+  const [id, setId] = useState<number>(2);
 
   useEffect(() => {
-    setId(params.id)
-  }, []);
+    setId(params.id);
+  }, [params.id]);
 
   const instrumento = instrumentos[id -1];
 
@@ -46,4 +46,4 @@ const info = ({ params }: ProductProps) => {
   );
 }
 
-export default info;
+export default Info;

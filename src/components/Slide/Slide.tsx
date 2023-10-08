@@ -3,6 +3,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { Transition } from '@headlessui/react';
 
+import Image from 'next/image';
+
 interface Props {
   data: string[];
 }
@@ -57,7 +59,7 @@ const Slide = ({ data }: Props) => {
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
-              <img
+              <Image
                 className="max-h-full object-cover"
                 src={image}
                 alt={`image${index}`}
