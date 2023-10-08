@@ -36,7 +36,7 @@ const Footer = () => {
           <h2 className="font-semibold">SUBSCRIBE</h2>
           <label className="flex items-center">
             <input
-              className="bg-white w-8/12 border-none focus:outline-none"
+              className="bg-white w-8/12 border-none focus:outline-none h-10"
               placeholder="Enter email"
               type="email"
               name="search"
