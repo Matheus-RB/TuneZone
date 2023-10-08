@@ -22,10 +22,10 @@ const NavBar = () => {
       </div>
       <div className="hidden sm:flex items-center justify-around w-7/12">
         <Link href="/" className="hover:text-white font-medium">HOME</Link>
-        <Link href="about" className="hover:text-white font-medium">ABOUT</Link>
-        <Link href="store" className="hover:text-white font-medium">STORE</Link>
-        <Link href="gallery" className="hover:text-white font-medium">GALLERY</Link>
-        <Link href="contact" className="hover:text-white font-medium">CONTACT</Link>
+        <Link href="/about" className="hover:text-white font-medium">ABOUT</Link>
+        <Link href="/store" className="hover:text-white font-medium">STORE</Link>
+        {/* <Link href="/gallery" className="hover:text-white font-medium">GALLERY</Link>
+        <Link href="/contact" className="hover:text-white font-medium">CONTACT</Link> */}
       </div>
       <div className="sm:hidden">
         <button
@@ -53,7 +53,7 @@ const NavBar = () => {
           </svg>
         </button>
         {showMenu && (
-          <div className="flex justify-center">
+          <div className="flex justify-center py-2">
             <div className="flex flex-col w-11/12">
               <hr className="border-black" />
               <Link href="/" className="rounded text-base text hover:text-white">
@@ -68,13 +68,13 @@ const NavBar = () => {
                 STORE
               </Link>
               <hr className="border-black" />
-              <Link href="/gallery" className="rounded text-base text hover:text-white">
+              {/* <Link href="/gallery" className="rounded text-base text hover:text-white">
                 GALLERY
               </Link>
               <hr className="border-black" />
               <Link href="/contact" className="rounded text-base text hover:text-white">
                 CONTACT
-              </Link>
+              </Link> */}
             </div>
           </div>
         )}
